@@ -13,3 +13,7 @@
 - Switch between windows:
 
 `rofi -show window`
+
+- Select from arbitrary items to stdout (dmenu)
+
+`echo "{{Something\nOr\nOther}}" | rofi -dmenu`
